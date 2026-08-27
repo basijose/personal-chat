@@ -46,6 +46,17 @@ docker compose up --build
 - Backend: `http://localhost:8000`
 - PostgreSQL: `localhost:5432`
 
+## Flujo de ramas en GitHub
+
+Este repositorio está preparado para trabajar con dos ramas de entorno:
+
+- `testing`: validación y pruebas.
+- `production`: salida estable.
+
+El CI de GitHub Actions corre en ambas ramas y en pull requests apuntadas a esas ramas.
+
+Ver [docs/deployment.md](./docs/deployment.md) para el flujo recomendado de promoción.
+
 ## Levantar en una sola terminal
 
 ```powershell
