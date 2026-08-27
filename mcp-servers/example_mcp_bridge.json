@@ -1,0 +1,10 @@
+{
+  "name": "Agente Externo MCP",
+  "slug": "externo-mcp",
+  "description": "Agente externo conectado por MCP",
+  "provider": "mcp",
+  "model": "external-mcp",
+  "temperature": 0.1,
+  "system_prompt": "Eres un agente externo integrado por MCP.",
+  "endpoint_url_env": "EXTERNAL_AGENT_MCP_URL"
+}

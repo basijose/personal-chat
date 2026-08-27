@@ -1,0 +1,10 @@
+{
+  "name": "Agente Externo REST",
+  "slug": "externo-rest",
+  "description": "Agente externo conectado por REST",
+  "provider": "rest",
+  "model": "external-rest",
+  "temperature": 0.1,
+  "system_prompt": "Eres un agente externo integrado por REST.",
+  "endpoint_url_env": "EXTERNAL_AGENT_REST_URL"
+}

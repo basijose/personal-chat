@@ -1,0 +1,11 @@
+{
+  "name": "Get Student",
+  "slug": "get_student",
+  "description": "Consulta datos de alumnos con n8n o mock local",
+  "tool_type": "get_student",
+  "configuration": {
+    "webhook_url_env": "N8N_GET_STUDENT_WEBHOOK_URL",
+    "timeout_seconds": 10
+  },
+  "active": true
+}
